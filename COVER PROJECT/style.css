@@ -1,0 +1,43 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width:600px){
+body{
+    font-size: 14px;
+}
+}
+
+@media only screen and (min-width:601px){
+    body{
+        font-size: 18px;
+    }
+}
+
+.bg-image{
+    width: 100%;
+    height: 100vh;
+    background: url(wallpaper.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+
+.container{
+    padding: 100px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: grey;
+}
+@media (max-width:500px){
+    .container{
+        padding: 10px;
+    }
+}
